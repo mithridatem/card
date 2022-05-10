@@ -10,7 +10,7 @@
     
     //boucle pour afficher les cards version (fetch_obj)
     foreach($tab as $value){
-        echo '<div class="cards"><h4>'.$value->title_cards.'
+        echo '<div class="cards" id="'.$value->id_cards.'"><h4>'.$value->title_cards.'
         </h4><img src="'.$value->url_cards.'"></img></div>';
     }
     //tableau de cartes (stocké un tableau associatif)
