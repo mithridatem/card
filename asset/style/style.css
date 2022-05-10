@@ -1,14 +1,16 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: grey;
 }
 #container_cards{
     display: flex;
     flex-direction: column;
     width: 50%;
-    background-color: darkblue;
 }
 .cards{
+    margin-left: 35%;
+    margin-top: 10px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -16,6 +18,7 @@ body{
     width: 24%;
 }
 .cards h4{
+    padding-left: 2.5em;
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -23,4 +26,5 @@ body{
 .cards img{
     width: 98%;
     padding: 1%;
+    border-radius: 25px;
 }

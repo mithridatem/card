@@ -7,7 +7,7 @@
     $card = new Cards();
     //tableau de cartes (stocké un tableau d'objet)
     $tab = $card->showAllCards($bdd);
-
+    
     //boucle pour afficher les cards version (fetch_obj)
     foreach($tab as $value){
         echo '<div class="cards"><h4>'.$value->title_cards.'
