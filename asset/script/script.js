@@ -27,6 +27,4 @@ list.forEach(element => {
         }
     })
 });
-tab.forEach(element => {
-    console.log(element);
-});
+
