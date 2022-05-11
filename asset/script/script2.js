@@ -19,7 +19,7 @@ function code(){
                 //on met la valeur d'opacité de l'enfant (img) à à 1
                 element.lastChild.style.opacity= 1;
             }
-            //sinon opacité est égale à 1
+            //sinon si l'opacité est égale à 1
             else{
                 //on remplace le textContent de l'enfant (h4) par test
                 element.firstChild.textContent = "Title" + " " + element.id;
