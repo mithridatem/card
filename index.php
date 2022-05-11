@@ -1,4 +1,7 @@
 <?php
+    //version sans api
+    
+    //imports
     include './utils/connectBdd.php';
     include './model/model_cards.php';
     include './view/view_show_all_cards.php';
