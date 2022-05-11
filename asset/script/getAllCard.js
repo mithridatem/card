@@ -1,13 +1,13 @@
-//url api
-//url qui récupère la liste des cards (json)
+//URL API
+//URL qui récupère la liste des cards (json)
 const url = './api.php?allCard';
-//url qui récupére le json d'erreur
+//URL qui récupére le json d'erreur (liste des cards vide)
 const url2 = './api.php';
 
-//zone pour afficher le contenu de l'api
+//Récupération de la zone HTML pour afficher le contenu de l'API
 let zone = document.querySelector('#container_card');
 
-//fonction récupération et affichage du json dans la page
+//Fonction asynchrone pour récupérer et affichager un JSON dans la page
 async function showAllCardApi(){
     //json liste des cards
     const data =  await fetch(url);
